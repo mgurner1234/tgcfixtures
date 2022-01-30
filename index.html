@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabulator Example</title>
-    <link href="https://unpkg.com/tabulator-tables@4.8.1/dist/css/tabulator.min.css" rel="stylesheet">
-    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.8.1/dist/js/tabulator.min.js"></script>
+    <title>Thornbury Golf Club Fixtures</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://unpkg.com/tabulator-tables@4.2.4/dist/js/tabulator.min.js"></script>
+    <link href="https://unpkg.com/tabulator-tables@4.2.4/dist/css/tabulator.min.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
     <style>
         /* Style the body */
         body {
@@ -16,7 +18,7 @@
 
         /* Header/Logo Title */
         .header {
-            padding: 60px;
+            padding: 20px;
             text-align: center;
             background: #1abc9c;
             color: white;
@@ -24,7 +26,9 @@
         }
 
         /* Page Content */
-        .content {padding:20px;}
+        .content {
+            padding: 20px;
+        }
     </style>
 </head>
 
@@ -2421,6 +2425,7 @@
         "teeTimes": "20",
         "comments": "-"
     }]
+
     var table = new Tabulator("#fixtures", {
         data: fixtures,
         layout: "fitColumns",
@@ -2429,7 +2434,7 @@
             title: "Day",
             field: "day",
             sorter: "string",
-            headerFilter: "input"
+            headerFilter: true,
         }, {
             title: "Date",
             field: "date",
@@ -2472,9 +2477,10 @@
                 hozAlign: "left",
                 headerFilter: true,
             },
-        ],
-
+        ]
     });
+
+
 </script>
 </body>
 
