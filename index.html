@@ -20,7 +20,7 @@
         .header {
             padding: 20px;
             text-align: center;
-            background: #1abc9c;
+            background: rgba(26, 137, 188, 0.99);
             color: white;
             font-size: 20px;
         }
@@ -35,2719 +35,15 @@
 <body>
 
 <div class="header">
-    <h1>Thornbury Golf Club Fixtures 2022</h1>
-    <p>last updated 06/03/2022</p>
+    <h1>Thornbury Golf Club Fixtures 2023</h1>
+    <p>last updated 14/01/2023</p>
     <button onClick="window.location.reload();">Reload All</button>
 </div>
 
 <div id="fixtures"></div>
 <script type="text/javascript">
     var fixtures = [{
-        "day": "﻿Saturday",
-        "date": "01/01/2022",
-        "competition": "Club New Year's Day Texas Scramble",
-        "section": "Club",
-        "blocks": " 10.00 - 12.00 ",
-        "teeTimes": "16",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "03/01/2022",
-        "competition": "Bank Holiday",
-        "section": "-",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "06/01/2022",
-        "competition": "Seniors Medal",
-        "section": "Seniors",
-        "blocks": " 08.16 - 10.48 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "08/01/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 08.32 - 10.48 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "08/01/2022",
-        "competition": "Ladies Christmas Club",
-        "section": "Ladies",
-        "blocks": " 10.56 - 11.28 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "09/01/2022",
-        "competition": "Ladies 9 hole Stableford",
-        "section": "Ladies",
-        "blocks": " 09.36 - 09.52 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "10/01/2022",
-        "competition": "Ladies 9 hole Stableford",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "13/01/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": " 08.16 - 10.48 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "15/01/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 08.32 - 10.48 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "17/01/2022",
-        "competition": "Ladies  Competition",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "20/01/2022",
-        "competition": "Seniors Stableford",
-        "section": "Seniors",
-        "blocks": " 08.16 - 10.48 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "24/01/2022",
-        "competition": "Ladies  Competition",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "27/01/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": " 08.16 - 10.48 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "29/01/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 08.32 - 10.48 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "30/01/2022",
-        "competition": "Junior Competition",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "31/01/2022",
-        "competition": "Ladies  Competition",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "03/02/2022",
-        "competition": "Seniors Medal",
-        "section": "Seniors",
-        "blocks": " 08.16 - 10.48 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "05/02/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 08.32 - 10.48 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "06/02/2022",
-        "competition": "Ladies 9 hole Stableford",
-        "section": "Ladies",
-        "blocks": " 09.36 - 09.52 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "07/02/2022",
-        "competition": "Ladies 9 hole Stableford",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "10/02/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": " 08.16 - 10.48 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "14/02/2022",
-        "competition": "Ladies  Competition",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "17/02/2022",
-        "competition": "Seniors Stableford",
-        "section": "Seniors",
-        "blocks": " 08.16 - 12.00 ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "19/02/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 08.32 - 10.48 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "19/02/2022",
-        "competition": "Junior Bowmaker",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "21/02/2022",
-        "competition": "Ladies  Competition",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "24/02/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": " 08.16 - 10.48 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "26/02/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 08.32 - 10.48  ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "27/02/2022",
-        "competition": "Junior Competition",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "28/02/2022",
-        "competition": "Ladies  Competition",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "03/03/2022",
-        "competition": "Seniors Medal",
-        "section": "Seniors",
-        "blocks": " 08.16 - 12.00 ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "03/03/2022",
-        "competition": "Ladies Opening Season Dinner",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "06/03/2022",
-        "competition": "Ladies Stableford",
-        "section": "Ladies",
-        "blocks": " 09.36 - 09.52 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "07/03/2022",
-        "competition": "Ladies Stableford",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "10/03/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": " 08.16 - 12.00 ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "13/03/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": "  08.32 - 10.48   ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "13/03/2022",
-        "competition": "Junior Texas Scramble",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "14/03/2022",
-        "competition": "Seniors and Ladies Charity Day (two tee start)",
-        "section": "Seniors/Ladies",
-        "blocks": " 08.32 - 09.44 ",
-        "teeTimes": "2 x 10",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "17/03/2022",
-        "competition": "Seniors Stableford",
-        "section": "Seniors",
-        "blocks": " 08.16 - 12.00 ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "21/03/2022",
-        "competition": "Ladies Hi/Lo Day",
-        "section": "Ladies",
-        "blocks": " 08.48 - 09.36 | 13.04 - 13.52 ",
-        "teeTimes": "7|7",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "22/03/2022",
-        "competition": "Seniors v The Bristol (H) 12.30",
-        "section": "Seniors",
-        "blocks": " 12.32 - 13.12 ",
-        "teeTimes": "-",
-        "comments": "12 Players"
-    }, {
-        "day": "Thursday",
-        "date": "24/03/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": " 08.16 - 10.48 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "25/03/2022",
-        "competition": "Ladies Alliance A v Weston super Mare (A) 11.00",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "26/03/2022",
-        "competition": "Junior Medal",
-        "section": "Juniors",
-        "blocks": " 12.08 - 12.24 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "26/03/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": "  08.00 - 10.16   ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "27/03/2022",
-        "competition": "Ladies Medal",
-        "section": "Ladies",
-        "blocks": " 10.24 - 10.40 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "28/03/2022",
-        "competition": "Ladies Medal",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Wednesday ",
-        "date": "30/03/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "31/03/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": " 08.16 - 12.00 ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "02/04/2022",
-        "competition": "Men's Medal",
-        "section": "Men",
-        "blocks": "  08.00 - 10.16   ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "03/04/2022",
-        "competition": "Ladies Stableford and Kitcat",
-        "section": "Ladies",
-        "blocks": " 09.44 - 10.00 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "04/04/2022",
-        "competition": "Ladies Stableford and Kitcat",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "06/04/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "07/04/2022",
-        "competition": "Seniors Medal",
-        "section": "Seniors",
-        "blocks": " 07.44 - 11.28 ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "08/04/2022",
-        "competition": "Ladies Alliance A v Burnham and Berrow (A)",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "09/04/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 07.20 - 09.36 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "10/04/2022",
-        "competition": "Junior Stableford",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "10/04/2022",
-        "competition": "Ladies Coronation Foursomes",
-        "section": "Ladies",
-        "blocks": " 09.36 - 09.52 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "11/04/2022",
-        "competition": "Ladies Coronation Foursomes",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "12/04/2022",
-        "competition": "Seniors v Mendip Springs (A) 10.30",
-        "section": "Seniors",
-        "blocks": "10.3",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Wednesday",
-        "date": "13/04/2022",
-        "competition": "Club Midweek Medal",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "14/04/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": " 07.44 - 11.28 ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "15/04/2022",
-        "competition": "Good Friday Bank Holiday",
-        "section": "-",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "16/04/2022",
-        "competition": "Club PGA Pro Am Qualifier (Stableford)",
-        "section": "Men",
-        "blocks": "  08.00 - 10.16   ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "18/04/2022",
-        "competition": "Easter Monday Bank Holiday Social Comp",
-        "section": "Club",
-        "blocks": " 10.00 - 12.00 ",
-        "teeTimes": "16",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "19/04/2022",
-        "competition": "Junior's Open",
-        "section": "Juniors",
-        "blocks": " 08.00 - 12.00 ",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "20/04/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Wednesday ",
-        "date": "20/04/2022",
-        "competition": "Ladies Mid Handicap v Chipping Sodbury (A)",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "21/04/2022",
-        "competition": "Seniors Stableford",
-        "section": "Seniors",
-        "blocks": " 07.44 - 11.28 ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "23/04/2022",
-        "competition": "Club Hodgson Trophy",
-        "section": "Club",
-        "blocks": " 07.28 - 10.00 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "24/04/2022",
-        "competition": "Ladies Medal",
-        "section": "Ladies",
-        "blocks": " 09.44 - 10.00 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "24/04/2022",
-        "competition": "Men's 2nd v Tracy Park 1st's (A)",
-        "section": "Men",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "25/04/2022",
-        "competition": "Ladies Medal",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "26/04/2022",
-        "competition": "Ladies Alliance A v Long Ashton (H)",
-        "section": "Ladies",
-        "blocks": " 10.30 - 11.18 ",
-        "teeTimes": "7",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "27/04/2022",
-        "competition": "Club Midweek Medal",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "27/04/2022",
-        "competition": "Ladies Friendly v Chipping Sodbury",
-        "section": "Ladies",
-        "blocks": " 11.04 - 11.28 ",
-        "teeTimes": "4",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "28/04/2022",
-        "competition": "Seniors Team Cup",
-        "section": "Seniors",
-        "blocks": " 07.44 - 11.28 ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "29/04/2022",
-        "competition": "Men's 1st v Lansdown 1st's (A) ",
-        "section": "Men",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "30/04/2022",
-        "competition": "Men's Medal",
-        "section": "Men",
-        "blocks": " 07.28 - 09.44 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "30/04/2022",
-        "competition": "Junior Stableford",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "02/05/2022",
-        "competition": "Early May Bank Holiday Social Comp",
-        "section": "Club",
-        "blocks": " 08.32 - 10.00 ",
-        "teeTimes": "10",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "04/05/2022",
-        "competition": "Seniors v Tall Pines (A)12.00",
-        "section": "Seniors",
-        "blocks": "12",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Wednesday",
-        "date": "04/05/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "05/05/2022",
-        "competition": "Seniors Medal ",
-        "section": "Seniors",
-        "blocks": " 07.44 - 11.20 ",
-        "teeTimes": "28",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "05/05/2022",
-        "competition": "Men's 2nd v Tracy Park 1st's (H)",
-        "section": "Men",
-        "blocks": " 17.30 - 18.02 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "06/05/2022",
-        "competition": "Men's Ist v Henbury 2nd's (H)",
-        "section": "Men",
-        "blocks": " 17.30 - 18.02 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "08/05/2022",
-        "competition": "Men's Away Day",
-        "section": "Men",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "08/05/2022",
-        "competition": "\"Ladies Stableford",
-        "section": " PCQ and Millenium Vets\"",
-        "blocks": "Ladies",
-        "teeTimes": " 09.44 - 10.00 ",
-        "comments": "3"
-    }, {
-        "day": "Monday",
-        "date": "09/05/2022",
-        "competition": "\"Ladies Stableford",
-        "section": " PCQ and Millenium Vets\"",
-        "blocks": "Ladies",
-        "teeTimes": " 08.48 - 10.32 ",
-        "comments": "14"
-    }, {
-        "day": "Tuesday",
-        "date": "10/05/2022",
-        "competition": "Seniors v Stockwood Vale (H) 12.00",
-        "section": "Seniors",
-        "blocks": " 11.12 - 11.52 ",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Wednesday",
-        "date": "11/05/2022",
-        "competition": "Club Midweek Medal",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "12/05/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Thursday ",
-        "date": "12/05/2022",
-        "competition": "Men's 1st v Clevedon 1st's (A)",
-        "section": "Men",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "12/05/2022",
-        "competition": "Ladies Mid Handicap v The Bristol (A) 13.30",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "12/05/2022",
-        "competition": "Ladies Friendly v Clevedon (A) 12.30",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "13/05/2022",
-        "competition": "Staff v Main Committee",
-        "section": "-",
-        "blocks": " 16.00 - 16.32 ",
-        "teeTimes": "4",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "14/05/2022",
-        "competition": "Men's County Medal",
-        "section": "Men",
-        "blocks": " 07.28 - 09.44 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "15/05/2022",
-        "competition": "Ladies Aussie Spoons Foursome",
-        "section": "Ladies",
-        "blocks": " 09.44 - 10.00 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "15/05/2022",
-        "competition": "Junior Medal",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "16/05/2022",
-        "competition": "Ladies Aussie Spoons Foursome",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "16/05/2022",
-        "competition": "Seniors v Bristol and Clifton (A) 12.30",
-        "section": "Seniors",
-        "blocks": "12.3",
-        "teeTimes": "-",
-        "comments": " 12 players"
-    }, {
-        "day": "Tuesday",
-        "date": "17/05/2022",
-        "competition": "Ladies Alliance A v Isle of Wedmore (H)",
-        "section": "Ladies",
-        "blocks": " 10.30 - 11.18 ",
-        "teeTimes": "7",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "17/05/2022",
-        "competition": "Ladies Alliance B v Henbury C (H)",
-        "section": "Ladies",
-        "blocks": " 13.52 - 14.40 ",
-        "teeTimes": "7",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "18/05/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "19/05/2022",
-        "competition": "Seniors Stableford(County Qualifier)",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "20/05/2022",
-        "competition": "Men's 1st v Clevedon 1st's (H)",
-        "section": "Men",
-        "blocks": " 17.30 - 18.02 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "20/05/2022",
-        "competition": "Men's 2nd v Chipping Sodbury 3rd's (A)",
-        "section": "Men",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "20/05/2022",
-        "competition": "Seniors Away Day",
-        "section": "Seniors",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "22/05/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": "  07.20 - 09.36  ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "22/05/2022",
-        "competition": "Ladies Medal",
-        "section": "Ladies",
-        "blocks": " 09.44 - 10.00 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "23/05/2022",
-        "competition": "Ladies Medal",
-        "section": "Ladies",
-        "blocks": " 08.40 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "23/05/2022",
-        "competition": "Seniors v Cumberwell Park (A) 11.30",
-        "section": "Seniors",
-        "blocks": "11.3",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Tuesday",
-        "date": "24/05/2022",
-        "competition": "Ladies Alliance B v The Kendleshire (H)",
-        "section": "Ladies",
-        "blocks": " 13.00 - 13.48 ",
-        "teeTimes": "7",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "25/05/2022",
-        "competition": "Club Midweek Medal",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "26/05/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "26/05/2022",
-        "competition": "Men's 2nd v Knowle 4th's (H)",
-        "section": "Men",
-        "blocks": " 17.30 - 18.02 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "28/05/2022",
-        "competition": "Men's Medal",
-        "section": "Men",
-        "blocks": " 07.20 - 09.52 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "28/05/2022",
-        "competition": "Junior Stableford",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "29/05/2022",
-        "competition": "Ladies Alliance B v Chipping Sodbury (A)",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "29/05/2022",
-        "competition": "Ladies Friendly v The Players Club (A)",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "30/05/2022",
-        "competition": "Ladies Competition ",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "01/06/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "02/06/2022",
-        "competition": "Spring Bank Holiday ",
-        "section": "-",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "03/06/2022",
-        "competition": "Platinum Jubilee Bank Holiday Comp",
-        "section": "Club",
-        "blocks": " 09.04 - 10.00 ",
-        "teeTimes": "8",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "04/06/2022",
-        "competition": "Men's Texas Scramble",
-        "section": "Men",
-        "blocks": " 08.00 - 09.52 ",
-        "teeTimes": "15",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "06/06/2022",
-        "competition": "Ladies Competition ",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "06/06/2022",
-        "competition": "Ladies Alliance A v Long Ashton (A)",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "07/06/2022",
-        "competition": "Seniors v Stockwood Vale (A) 11.00",
-        "section": "Seniors",
-        "blocks": "11",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Wednesday",
-        "date": "08/06/2022",
-        "competition": "Club Midweek Medal",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "09/06/2022",
-        "competition": "Seniors Stableford",
-        "section": "Seniors",
-        "blocks": " 07.44 - 11.28 ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "09/06/2022",
-        "competition": "Ladies Friendly v Worlebury (A) 11.00 am",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "11/06/2022",
-        "competition": "Club Championship Round 1",
-        "section": "Club",
-        "blocks": " 07.20 - 12.32 ",
-        "teeTimes": "40",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "12/06/2022",
-        "competition": "Club Championship Round 2",
-        "section": "Club",
-        "blocks": " 07.20 - 12.32 ",
-        "teeTimes": "40",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "13/06/2022",
-        "competition": "Ladies Competition ",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "15/06/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "16/06/2022",
-        "competition": "Seniors Summerhouse Millenium Medal",
-        "section": "Seniors",
-        "blocks": " 07.44 - 10.56 ",
-        "teeTimes": "25",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "16/06/2022",
-        "competition": "Men's 2nd v The Players 3rd's (H)",
-        "section": "Men",
-        "blocks": " 17.30 - 18.02 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "17/06/2022",
-        "competition": "Men's 1st v Long Ashton (A) 17.30",
-        "section": "Men",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "18/06/2022",
-        "competition": "Ladies Ping 4BBB",
-        "section": "Ladies",
-        "blocks": " 10.00 - 11.04 ",
-        "teeTimes": "9",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "18/06/2022",
-        "competition": "Junior Medal",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "18/06/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 07.20 - 09.52 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "19/06/2022",
-        "competition": "Ladies Medal",
-        "section": "Ladies ",
-        "blocks": " 09.36 - 10.00 ",
-        "teeTimes": "4",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "20/06/2022",
-        "competition": "Ladies Medal",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "20/06/2022",
-        "competition": "Seniors v Brickhampton (H) 12.30",
-        "section": "Seniors",
-        "blocks": " 12.30 - 13.12 ",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Tuesday",
-        "date": "21/06/2022",
-        "competition": "Ladies Alliance A v Henbury (H)",
-        "section": "Ladies",
-        "blocks": " 12.30 - 13.18 ",
-        "teeTimes": "7",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "22/06/2022",
-        "competition": "Club Midweek Medal",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "22/06/2022",
-        "competition": "Ladies Friendly v St Pierre",
-        "section": "Ladies",
-        "blocks": " 11.04 - 11.28 ",
-        "teeTimes": "4",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "23/06/2022",
-        "competition": "Seniors Captain's Day (two tee start)",
-        "section": "Seniors",
-        "blocks": " 07.44 - 09.44 ",
-        "teeTimes": "2 x 15",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "23/06/2022",
-        "competition": "Men's 2nd v Shirehampton Park 2nd's",
-        "section": "Men",
-        "blocks": " 17.30 - 18.02 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "24/06/2022",
-        "competition": "Men's 1st v Long Ashton (H)",
-        "section": "Men",
-        "blocks": " 17.30 - 18.02 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "26/06/2022",
-        "competition": "Men's Hawkins Rosebowl (Stableford)",
-        "section": "Men",
-        "blocks": " 07.44 - 10.16 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "27/06/2022",
-        "competition": "Ladies Away Day",
-        "section": "Ladies ",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "27/06/2022",
-        "competition": "Ladies Competition",
-        "section": "Ladies ",
-        "blocks": " 09.04 - 09.28 ",
-        "teeTimes": "4",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "28/06/2022",
-        "competition": "Seniors v Forest of Dean (H) 12.30",
-        "section": "Seniors",
-        "blocks": " 12.30 - 13.12 ",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Tuesday ",
-        "date": "28/06/2022",
-        "competition": "Ladies Alliance B v Clevedon B (H)",
-        "section": "Ladies",
-        "blocks": " 10.30 - 11.22  ",
-        "teeTimes": "7",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "29/06/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "29/06/2022",
-        "competition": "Ladies Mid Handicap v The Bristol (H)",
-        "section": "Ladies",
-        "blocks": " 13.30 - 14.02 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "29/06/2022",
-        "competition": "Ladies Friendly v Tall Pines (A) 13.00",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "30/06/2022",
-        "competition": "Seniors Stableford",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "01/07/2022",
-        "competition": "Ladies Alliance A v Isle of Wedmore (A)",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "02/07/2022",
-        "competition": "Club Invitation Day",
-        "section": "Club",
-        "blocks": " 08.00 - 10.32 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "03/07/2022",
-        "competition": "Junior Stableford",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "03/07/2022",
-        "competition": "Ladies Alliance B v Henbury C (A)",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "04/07/2022",
-        "competition": "Ladies Open Team Event",
-        "section": "Ladies",
-        "blocks": " 08.56 - 14.00 ",
-        "teeTimes": "39",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "05/07/2022",
-        "competition": "Seniors v Tall Pines (H) 12.30",
-        "section": "Seniors",
-        "blocks": " 12.30 - 13.12 ",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Wednesday",
-        "date": "06/07/2022",
-        "competition": "Club Midweek Medal",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "07/07/2022",
-        "competition": "Seniors Medal ",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "08/07/2022",
-        "competition": "Ladies Alliance A v Bristol and Clifton (H)",
-        "section": "Ladies",
-        "blocks": " 11.52 - 12.40 ",
-        "teeTimes": "7",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "08/07/2022",
-        "competition": "Men's 1st v Lansdown 1st's (H)",
-        "section": "Men",
-        "blocks": " 17.30 - 18.02 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "08/07/2022",
-        "competition": "Men's 2nd v Knowle 4th's (A)",
-        "section": "Men",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "09/07/2022",
-        "competition": "Club Par 3 Championship",
-        "section": "Men",
-        "blocks": " 07.28 - 09.30 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "10/07/2022",
-        "competition": "Men's Burhill Bowl (Medal)",
-        "section": "Men",
-        "blocks": " 07.20 - 10.08 ",
-        "teeTimes": "22",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "10/07/2022",
-        "competition": "Ladies Stableford and Grannie Star",
-        "section": "Ladies",
-        "blocks": " 10.16 - 10.32 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday ",
-        "date": "10/07/2022",
-        "competition": "Ladies Alliance B v The Kendleshire (A)",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "11/07/2022",
-        "competition": "Ladies Stableford and Grannie Star",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "12/07/2022",
-        "competition": "Seniors v The Bristol(A) 11.00",
-        "section": "Seniors",
-        "blocks": "11",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Wednesday",
-        "date": "13/07/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "13/07/2022",
-        "competition": "Ladies MidHandicap v Chipping Sodbury (H)",
-        "section": "Ladies",
-        "blocks": " 13.30 - 14.02 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "14/07/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": " 07.44 - 10.56 ",
-        "teeTimes": "25",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "14/07/2022",
-        "competition": "Ladies Friendly v Filton(A) 10.30",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "16/07/2022",
-        "competition": "Club Mixed Away Day",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "16/07/2022",
-        "competition": "Junior Medal",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "17/07/2022",
-        "competition": "Men's 2nd v Shirehampton Park 2nd's (A)",
-        "section": "Men",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "17/07/2022",
-        "competition": "Ladies Ellis Cup Foursomes",
-        "section": "Ladies",
-        "blocks": " 09.44 - 10.00 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "17/07/2022",
-        "competition": "Junior Medal",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "18/07/2022",
-        "competition": "Ladies Ellis Cup Foursomes",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "18/07/2022",
-        "competition": "Seniors v Filton (H) 12.30",
-        "section": "Seniors",
-        "blocks": " 12.30 - 13.12 ",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Tuesday",
-        "date": "19/07/2022",
-        "competition": "Ladies Alliance B v Tracy Park (H)",
-        "section": "Ladies",
-        "blocks": " 13.04 - 13.52 ",
-        "teeTimes": "7",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "20/07/2022",
-        "competition": "Club Midweek Medal",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "21/07/2022",
-        "competition": "Seniors Championship",
-        "section": "Seniors",
-        "blocks": " 07.44 - 11.36 ",
-        "teeTimes": "30",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "22/07/2022",
-        "competition": "Seniors Championship",
-        "section": "Seniors",
-        "blocks": " 07.44 - 11.36 ",
-        "teeTimes": "30",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "23/07/2022",
-        "competition": "Men's Medal",
-        "section": "Men",
-        "blocks": " 07.20 - 09.36 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "23/07/2022",
-        "competition": "Ladies Burhill Bowl and Muriel Button Vets",
-        "section": "Ladies",
-        "blocks": "  09.44 - 10.00  ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "24/07/2022",
-        "competition": "Club Anniversary Trophy",
-        "section": "Club",
-        "blocks": " 08.32 - 12.24 ",
-        "teeTimes": "30",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "24/07/2022",
-        "competition": "Men's 1st v Farrington Park 1st's (A)",
-        "section": "Men",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "25/07/2022",
-        "competition": "Ladies Burhill Bowl and Muriel Button Vets",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "27/07/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "27/07/2022",
-        "competition": "Ladies Alliance v Tracy Park (A)",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "27/07/2022",
-        "competition": "Junior Away Day - Tracy Park Golf Club",
-        "section": "Juniors",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "28/07/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Thursday ",
-        "date": "28/07/2022",
-        "competition": "Men's 2nd v Chipping Sodbury 3rd's (H)",
-        "section": "Men",
-        "blocks": " 17.30 - 18.02 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "29/07/2022",
-        "competition": "Ladies Alliance A v Henbury (A)",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "30/07/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 07.20 - 09.36 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "01/08/2022",
-        "competition": "Ladies Competition",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "01/08/2022",
-        "competition": "Seniors v Cumberwell Park (H)  12.30",
-        "section": "Seniors",
-        "blocks": " 12.30 - 13.12 ",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Monday",
-        "date": "01/08/2022",
-        "competition": "Ladies Alliance B v Saltford A (A)",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "03/08/2022",
-        "competition": "Club Midweek Medal",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "High Course Maintenance"
-    }, {
-        "day": "Thursday",
-        "date": "04/08/2022",
-        "competition": "Seniors Medal",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "High Course Maintenance"
-    }, {
-        "day": "Thursday",
-        "date": "04/08/2022",
-        "competition": "Junior Outing European Tour Event Celtic Manor",
-        "section": "Juniors",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "05/08/2022",
-        "competition": "Junior Outing European Tour Event Celtic Manor",
-        "section": "Juniors",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "07/08/2022",
-        "competition": "Men's Medal",
-        "section": "Men",
-        "blocks": " 07.20 - 09.36 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "07/08/2022",
-        "competition": "Ladies Stableford and Mercia Cup",
-        "section": "Ladies",
-        "blocks": " 09.44 - 10.08 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "07/08/2022",
-        "competition": "Junior Medal",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "08/08/2022",
-        "competition": "Ladies Stableford and Mercia Cup",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "09/08/2022",
-        "competition": "Seniors v Forest of Dean (A) 11.00",
-        "section": "Seniors",
-        "blocks": "11",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Wednesday",
-        "date": "10/08/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "11/08/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "11/08/2022",
-        "competition": "Men's 2nd v The Players 3rd's (A)",
-        "section": "Men",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "12/08/2022",
-        "competition": "Ladies Alliance B v Clevedon B (A)",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "12/08/2022",
-        "competition": "Men's 1st v Henbury 2nd's (A)",
-        "section": "Men",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "13/08/2022",
-        "competition": "Men's Captain's Day",
-        "section": "Men",
-        "blocks": " 07.28 - 10.24 ",
-        "teeTimes": "24",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "14/08/2022",
-        "competition": "Ladies County Greensomes",
-        "section": "Ladies",
-        "blocks": " 09.52 - 10.08 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "15/08/2022",
-        "competition": "Ladies County Greensomes",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "16/08/2022",
-        "competition": "Everton Mixed (two tee start)",
-        "section": "Club",
-        "blocks": " 14.00 - 15.04 ",
-        "teeTimes": "2 x 9",
-        "comments": "Two Tee Start"
-    }, {
-        "day": "Tuesday",
-        "date": "16/08/2022",
-        "competition": "Junior Captain's Breakfast",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.44 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "17/08/2022",
-        "competition": "Club Midweek Medal",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "17/08/2022",
-        "competition": "Ladies Mid Handicao v Bristol and Clifton (H)",
-        "section": "Ladies",
-        "blocks": " 13.30 - 14.04 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "18/08/2022",
-        "competition": "Seniors' Captain's Cup",
-        "section": "Seniors",
-        "blocks": " 07.44 - 10.56 ",
-        "teeTimes": "25",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "20/08/2022",
-        "competition": "Men's Bowmaker",
-        "section": "Men",
-        "blocks": " 07.20 - 09.28 ",
-        "teeTimes": "17",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "20/08/2022",
-        "competition": "Junior Medal",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "21/08/2022",
-        "competition": "Ladies' Captain's Day",
-        "section": "Ladies",
-        "blocks": "  09.44 - 10.00  ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday ",
-        "date": "21/08/2022",
-        "competition": "Men's 1st v Farrington Park 1st's (H)",
-        "section": "Men",
-        "blocks": " 13.00 - 13.32 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "22/08/2022",
-        "competition": "Ladies' Captain's Day",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "23/08/2022",
-        "competition": "Ladies Friendly v Westonbirt",
-        "section": "Ladies",
-        "blocks": " 11.04 - 11.28 ",
-        "teeTimes": "4",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "24/08/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "25/08/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": " 07.44 - 10.56 ",
-        "teeTimes": "25",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "27/08/2022",
-        "competition": "Men's Past Captains' Day",
-        "section": "Men",
-        "blocks": " 08.00 - 08.32 ",
-        "teeTimes": "4",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "28/08/2022",
-        "competition": "Men's Handicap Foursomes",
-        "section": "Men",
-        "blocks": " 08.00 - 09.28 ",
-        "teeTimes": "12",
-        "comments": "-"
-    }, {
-        "day": "Sunday ",
-        "date": "28/08/2022",
-        "competition": "Junior Championship Round 1",
-        "section": "Juniors",
-        "blocks": " 09.36 - 10.08 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "29/08/2022",
-        "competition": "Summer Bank Holiday Social Comp",
-        "section": "Club",
-        "blocks": " 08.32 - 09.28 ",
-        "teeTimes": "12",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "30/08/2022",
-        "competition": "Junior Championship Round 2",
-        "section": "Juniors",
-        "blocks": " 13.28 - 14.00 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "30/08/2022",
-        "competition": "Seniors v Bristol and Clifton (H) 12.30",
-        "section": "Seniors ",
-        "blocks": "  12.32 - 13.12  ",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Wednesday",
-        "date": "31/08/2022",
-        "competition": "Club Midweek Medal",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "01/09/2022",
-        "competition": "Seniors Medal",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "02/09/2022",
-        "competition": "Ladies Alliance A v Weston Super Mare (H)",
-        "section": "Ladies",
-        "blocks": " 10.30 - 11.18 ",
-        "teeTimes": "7",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "02/09/2022",
-        "competition": "Men's Captain's Away Weekend (three days)",
-        "section": "Men",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "05/09/2022",
-        "competition": "Ladies Competition",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "05/09/2022",
-        "competition": "Seniors v Shirehampton (A) 12.00",
-        "section": "Seniors",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Tuesday",
-        "date": "06/09/2022",
-        "competition": "Ladies Alliance B v Saltford A (H)",
-        "section": "Ladies",
-        "blocks": " 13.00 - 13.48 ",
-        "teeTimes": "7",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "07/09/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "08/09/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "10/09/2022",
-        "competition": "Men's Victor Harroway Trophy (Medal)",
-        "section": "Men",
-        "blocks": " 07.20 - 09.52 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "11/09/2022",
-        "competition": "Junior Stableford",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "11/09/2022",
-        "competition": "Ladies Away Weekend (two days)",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "12/09/2022",
-        "competition": "Ladies Competition",
-        "section": "Ladies",
-        "blocks": " 09.04 - 09.20 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "13/09/2022",
-        "competition": "Seniors Tour - 3 days",
-        "section": "Seniors",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "13/09/2022",
-        "competition": "Ladies Alliance B vChipping Sodbury (H)",
-        "section": "Ladies",
-        "blocks": " 13.00 - 13.48 ",
-        "teeTimes": "7",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "14/09/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "15/09/2022",
-        "competition": "Seniors Stableford",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "16/09/2022",
-        "competition": "Ladies Alliance A v Burnham and Berrow (H)",
-        "section": "Ladies",
-        "blocks": " 10.30 - 11.18 ",
-        "teeTimes": "7",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "17/09/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 07.36 - 10.08 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "18/09/2022",
-        "competition": "Ladies Charity Stableford",
-        "section": "Ladies",
-        "blocks": "  09.44 - 10.00  ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "19/09/2022",
-        "competition": "Ladies Charity Stableford",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "21/09/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "22/09/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "22/09/2022",
-        "competition": "Ladies Friendly v Bristol and Clifton (A) 13.00",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "24/09/2022",
-        "competition": "Men's Bogey",
-        "section": "Men",
-        "blocks": " 07.44 - 10.16 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "24/09/2022",
-        "competition": "Junior Medal",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "25/09/2022",
-        "competition": "Club Past Captains' Cup",
-        "section": "Club",
-        "blocks": " 13.04 - 14.00 ",
-        "teeTimes": "8",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "25/09/2022",
-        "competition": "Ladies Medal",
-        "section": "Ladies",
-        "blocks": " 09.44 - 10.00  ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "26/09/2022",
-        "competition": "Ladies Medal",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "27/09/2022",
-        "competition": "Seniors v Shirehampton (H) 12.30",
-        "section": "Seniors ",
-        "blocks": " 12.32 - 13.12 ",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Wednesday",
-        "date": "28/09/2022",
-        "competition": "Club Midweek Stableford",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Wednesday",
-        "date": "28/09/2022",
-        "competition": "Ladies Friendly v Minchinhampton New",
-        "section": "Ladies",
-        "blocks": " 11.04 - 11.28 ",
-        "teeTimes": "4",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "29/09/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "30/09/2022",
-        "competition": "",
-        "section": "-",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "01/10/2022",
-        "competition": "Men's Gold Medal",
-        "section": "Men",
-        "blocks": " 08.00 - 09.44 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "01/10/2022",
-        "competition": "Men's Tin Medal",
-        "section": "Men",
-        "blocks": " 09.52 - 11.04 ",
-        "teeTimes": "10",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "02/10/2022",
-        "competition": "Ladies Stableford",
-        "section": "Ladies",
-        "blocks": " 09.44 - 10.00 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "02/10/2022",
-        "competition": "Ladies Alliance A v Bristol and Clifton (A)",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "03/10/2022",
-        "competition": "Ladies Stableford",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "06/10/2022",
-        "competition": "Seniors v Filton (A) 12.00",
-        "section": "Seniors",
-        "blocks": "12",
-        "teeTimes": "-",
-        "comments": "12 players"
-    }, {
-        "day": "Thursday",
-        "date": "06/10/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "08/10/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 08.00 - 10.16 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "09/10/2022",
-        "competition": "Junior Medal",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "09/10/2022",
-        "competition": "Ladies Medal",
-        "section": "Ladies",
-        "blocks": "  09.44 - 10.00  ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "10/10/2022",
-        "competition": "Ladies Medal",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "13/10/2022",
-        "competition": "Seniors Medal",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "15/10/2022",
-        "competition": "Men's Handicap Greensomes",
-        "section": "Men",
-        "blocks": " 08.00 - 10.00 ",
-        "teeTimes": "16",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "16/10/2022",
-        "competition": "Ladies Competition Winners Cup",
-        "section": "Ladies",
-        "blocks": " 09.28 - 10.24  ",
-        "teeTimes": "8",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "17/10/2022",
-        "competition": "Ladies Competition ",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "20/10/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "22/10/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 08.00 - 10.16 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "22/10/2022",
-        "competition": "Junior Stableford",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "23/10/2022",
-        "competition": "Ladies v Men",
-        "section": "Ladies/Men",
-        "blocks": " 08.00 - 09.12 ",
-        "teeTimes": "10",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "24/10/2022",
-        "competition": "Ladies' Captain v Vice Captain",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "27/10/2022",
-        "competition": "Seniors Stableford",
-        "section": "Seniors",
-        "blocks": "  07.44 - 11.28  ",
-        "teeTimes": "29",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "30/10/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 08.00 - 10.16 ",
-        "teeTimes": "18",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "31/10/2022",
-        "competition": "Ladies Competition ",
-        "section": "Ladies",
-        "blocks": " 08.48 - 10.32 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "03/11/2022",
-        "competition": "Seniors' AGM/Captain v Past Captain",
-        "section": "Seniors",
-        "blocks": " 08.32 - 09.36 ",
-        "teeTimes": "2 x 9",
-        "comments": "Two Tee Start"
-    }, {
-        "day": "Thursday",
-        "date": "03/11/2022",
-        "competition": "Ladies' End of Season Dinner",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "05/11/2022",
-        "competition": "Ladies Christmas Club",
-        "section": "Ladies",
-        "blocks": " 10.48 - 11.20 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "05/11/2022",
-        "competition": "Men's AGM/ Captain v Vice Captain",
-        "section": "Men",
-        "blocks": " 08.56 - 10.40 ",
-        "teeTimes": "14",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "06/11/2022",
-        "competition": "Ladies Stableford",
-        "section": "Ladies",
-        "blocks": " 09.36 - 09.52 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "06/11/2022",
-        "competition": "Junior Competition",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "07/11/2022",
-        "competition": "Ladies Stableford",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "08/11/2022",
-        "competition": "Ladies' AGM ",
-        "section": "Ladies",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "10/11/2022",
-        "competition": "Seniors Medal",
-        "section": "Seniors",
-        "blocks": " 08.16 - 11.20 ",
-        "teeTimes": "24",
-        "comments": "-"
-    }, {
-        "day": "Saturday ",
-        "date": "12/11/2022",
-        "competition": "Ladies Christmas Club",
-        "section": "Ladies",
-        "blocks": " 10.08 - 10.40 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "14/11/2022",
-        "competition": "Ladies v Seniors Challenge Cup",
-        "section": "Ladies/Sen",
-        "blocks": " 09.04 - 11.36 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "17/11/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": " 08.16 - 11.20 ",
-        "teeTimes": "24",
-        "comments": "-"
-    }, {
-        "day": "Friday",
-        "date": "18/11/2022",
-        "competition": "Club Presentation Night",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "19/11/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 08.32 - 11.04 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "19/11/2022",
-        "competition": "Ladies Christmas Club",
-        "section": "Ladies",
-        "blocks": " 11.12 - 11.44 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "19/11/2022",
-        "competition": "Junior Stableford",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "21/11/2022",
-        "competition": "Ladies Competition",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "24/11/2022",
-        "competition": "Seniors Stableford",
-        "section": "Seniors",
-        "blocks": " 08.16 - 11.20 ",
-        "teeTimes": "24",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "26/11/2022",
-        "competition": "Ladies Christmas Club",
-        "section": "Ladies",
-        "blocks": " 10.08 - 10.40 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "28/11/2022",
-        "competition": "Ladies Sue Harbottle Charity Stableford",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "01/12/2022",
-        "competition": "Seniors Medal",
-        "section": "Seniors",
-        "blocks": " 08.16 - 11.20 ",
-        "teeTimes": "24",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "03/12/2022",
-        "competition": "Men's 3 Club Challenge",
-        "section": "Men",
-        "blocks": " 08.16 - 11.04 ",
-        "teeTimes": "22",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "03/12/2022",
-        "competition": "Ladies Christmas Club",
-        "section": "Ladies",
-        "blocks": " 11.12 - 11.44 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "03/12/2022",
-        "competition": "Captains' Drive-in 2.00pm",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "05/12/2022",
-        "competition": "Ladies 3 Club Challenge and Christmas Lunch",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "06/12/2022",
-        "competition": "Club AGM",
-        "section": "Club",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "08/12/2022",
-        "competition": "Seniors Thursday Golf",
-        "section": "Seniors",
-        "blocks": " 08.16 - 11.20 ",
-        "teeTimes": "24",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "10/12/2022",
-        "competition": "Ladies Christmas Club",
-        "section": "Ladies",
-        "blocks": " 10.00 - 10.32 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "11/12/2022",
-        "competition": "Junior Texas Scramble and Christmas Lunch",
-        "section": "Juniors",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": " Times to be confirmed "
-    }, {
-        "day": "Sunday",
-        "date": "11/12/2022",
-        "competition": "Ladies 9 Hole Stableford",
-        "section": "Ladies",
-        "blocks": " 09.36 - 09.52 ",
-        "teeTimes": "3",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "12/12/2022",
-        "competition": "Ladies 9 Hole Stableford",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "15/12/2022",
-        "competition": "Seniors Stableford",
-        "section": "Seniors",
-        "blocks": " 08.16 - 11.20 ",
-        "teeTimes": "24",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "17/12/2022",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 08.32 - 11.04 ",
-        "teeTimes": "20",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "17/12/2022",
-        "competition": "Ladies Christmas Club",
-        "section": "Ladies",
-        "blocks": " 11.12 - 11.44 ",
-        "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "19/12/2022",
-        "competition": "Ladies Competition",
-        "section": "Ladies",
-        "blocks": " 08.56 - 10.32 ",
-        "teeTimes": "13",
-        "comments": "-"
-    }, {
-        "day": "Thursday",
-        "date": "22/12/2022",
-        "competition": "Senors Thursday Golf",
-        "section": "Seniors",
-        "blocks": " 08.16 - 11.20 ",
-        "teeTimes": "24",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "25/12/2022",
-        "competition": "Christmas Day",
-        "section": "-",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Monday",
-        "date": "26/12/2022",
-        "competition": "Christmas Day Bank Holiday",
-        "section": "-",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Tuesday",
-        "date": "27/12/2022",
-        "competition": "Boxing Day Bank Holiday",
-        "section": "-",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
+        "day": "﻿Sunday",
         "date": "01/01/2023",
         "competition": "Club New Year's Day Texas Scramble",
         "section": "Club",
@@ -2755,20 +51,12 @@
         "teeTimes": "16",
         "comments": "-"
     }, {
-        "day": "Monday",
-        "date": "02/01/2023",
-        "competition": "New Years Day Bank Holiday",
-        "section": "-",
-        "blocks": "-",
-        "teeTimes": "-",
-        "comments": "-"
-    }, {
         "day": "Thursday",
         "date": "05/01/2023",
-        "competition": "Seniors Medal/ Captain's Drive-in",
+        "competition": "Seniors Medal",
         "section": "Seniors",
-        "blocks": " 08.16 - 11.20 ",
-        "teeTimes": "24",
+        "blocks": " 08.08 - 10.56 ",
+        "teeTimes": "22",
         "comments": "-"
     }, {
         "day": "Saturday",
@@ -2785,14 +73,6 @@
         "section": "Ladies",
         "blocks": " 10.56 - 11.28 ",
         "teeTimes": "5",
-        "comments": "-"
-    }, {
-        "day": "Sunday",
-        "date": "08/01/2023",
-        "competition": "Junior Stableford",
-        "section": "Juniors",
-        "blocks": " 12.00 - 12.16 ",
-        "teeTimes": "3",
         "comments": "-"
     }, {
         "day": "Sunday",
@@ -2815,23 +95,15 @@
         "date": "12/01/2023",
         "competition": "Seniors Thursday Golf",
         "section": "Seniors",
-        "blocks": " 08.16 - 11.20 ",
-        "teeTimes": "24",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "14/01/2023",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 08.32 - 10.48 ",
-        "teeTimes": "18",
+        "blocks": " 08.08 - 10.56 ",
+        "teeTimes": "22",
         "comments": "-"
     }, {
         "day": "Monday",
         "date": "16/01/2023",
         "competition": "Ladies  Competition",
         "section": "Ladies",
-        "blocks": "  08.56 - 10.32  ",
+        "blocks": " 08.56 - 10.32 ",
         "teeTimes": "13",
         "comments": "-"
     }, {
@@ -2839,8 +111,16 @@
         "date": "19/01/2023",
         "competition": "Seniors Stableford",
         "section": "Seniors",
-        "blocks": " 08.16 - 11.20 ",
-        "teeTimes": "24",
+        "blocks": " 08.08 - 10.56 ",
+        "teeTimes": "22",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "21/01/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 08.32 - 10.48 ",
+        "teeTimes": "18",
         "comments": "-"
     }, {
         "day": "Monday",
@@ -2855,21 +135,13 @@
         "date": "26/01/2023",
         "competition": "Seniors Thursday Golf",
         "section": "Seniors",
-        "blocks": " 08.16 - 11.20 ",
-        "teeTimes": "24",
-        "comments": "-"
-    }, {
-        "day": "Saturday",
-        "date": "28/01/2023",
-        "competition": "Men's Stableford",
-        "section": "Men",
-        "blocks": " 08.32 - 10.48 ",
-        "teeTimes": "18",
+        "blocks": " 08.08 - 10.56 ",
+        "teeTimes": "22",
         "comments": "-"
     }, {
         "day": "Sunday",
         "date": "29/01/2023",
-        "competition": "Junior Stableford",
+        "competition": "Junior Competition",
         "section": "Juniors",
         "blocks": " 12.00 - 12.16 ",
         "teeTimes": "3",
@@ -2877,6 +149,2198 @@
     }, {
         "day": "Monday",
         "date": "30/01/2023",
+        "competition": "Ladies  Competition",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "02/02/2023",
+        "competition": "Seniors Medal",
+        "section": "Seniors",
+        "blocks": " 08.00 - 11.04 ",
+        "teeTimes": "24",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "04/02/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 08.32 - 10.48  ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "05/02/2023",
+        "competition": "Ladies 9 hole Stableford",
+        "section": "Ladies",
+        "blocks": " 09.36 - 09.52 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "06/02/2023",
+        "competition": "Ladies 9 hole Stableford",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "09/02/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": " 08.00 - 11.04 ",
+        "teeTimes": "24",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "13/02/2023",
+        "competition": "Ladies  Competition",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "16/02/2023",
+        "competition": "Seniors Stableford",
+        "section": "Seniors",
+        "blocks": " 08.00 - 11.04 ",
+        "teeTimes": "24",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "18/02/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 08.32 - 10.48 ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "18/02/2023",
+        "competition": "Junior Bowmaker",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "20/02/2023",
+        "competition": "Ladies  Competition",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "23/02/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": " 08.00 - 11.04 ",
+        "teeTimes": "24",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "25/02/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 08.32 - 10.48  ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "26/02/2023",
+        "competition": "Junior Competition",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "27/02/2023",
+        "competition": "Ladies  Competition",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "02/03/2023",
+        "competition": "Seniors Medal",
+        "section": "Seniors",
+        "blocks": " 08.00 - 11.04 ",
+        "teeTimes": "24",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "02/03/2023",
+        "competition": "Ladies Opening Season Dinner",
+        "section": "Ladies",
+        "blocks": " - ",
+        "teeTimes": "-",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "06/03/2023",
+        "competition": "Seniors and Ladies Charity Day (two tee start)",
+        "section": "Seniors - Ladies",
+        "blocks": " 08.32 - 09.44 ",
+        "teeTimes": "2 x 10",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "09/03/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": " 08.00 - 11.04 ",
+        "teeTimes": "24",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "12/03/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": "  08.32 - 10.48   ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "12/03/2023",
+        "competition": "Junior Texas Scramble",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "12/03/2023",
+        "competition": "Ladies Stableford",
+        "section": "Ladies",
+        "blocks": " 10.56 - 11.04 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "13/03/2023",
+        "competition": "Ladies Stableford",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "16/03/2023",
+        "competition": "Seniors Stableford",
+        "section": "Seniors",
+        "blocks": " 08.00 - 11.04 ",
+        "teeTimes": "24",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "20/03/2023",
+        "competition": "Ladies Hi/Lo Day",
+        "section": "Ladies",
+        "blocks": " 08.48-09.36 & 13.04-13.52 ",
+        "teeTimes": "7 & 7",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "21/03/2023",
+        "competition": "Seniors v The Bristol (H) 12.30",
+        "section": "Seniors",
+        "blocks": " 12.32 - 13.12 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "23/03/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": " 08.00 - 11.04 ",
+        "teeTimes": "24",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "25/03/2023",
+        "competition": "Junior Medal",
+        "section": "Juniors",
+        "blocks": " 12.08 - 12.24 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "26/03/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": "  08.00 - 10.16   ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "26/03/2023",
+        "competition": "Ladies Medal",
+        "section": "Ladies",
+        "blocks": " 10.24 - 10.40 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "27/03/2023",
+        "competition": "Ladies Medal",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Wednesday ",
+        "date": "29/03/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": "-",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "30/03/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": " 08.00 - 11.04 ",
+        "teeTimes": "24",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "01/04/2023",
+        "competition": "Men's Medal",
+        "section": "Men",
+        "blocks": "  08.00 - 10.16   ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "02/04/2023",
+        "competition": "Ladies Stableford and Kitcat",
+        "section": "Ladies",
+        "blocks": " 09.44 - 10.00 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "03/04/2023",
+        "competition": "Ladies Stableford and Kitcat",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "05/04/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": "-",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "06/04/2023",
+        "competition": "Seniors Medal",
+        "section": "Seniors",
+        "blocks": " 07.44 - 10.56 ",
+        "teeTimes": "25",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "08/04/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 07.20 - 09.36 ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "09/04/2023",
+        "competition": "Junior Stableford",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "10/04/2023",
+        "competition": "Easter Monday Bank Holiday Social Comp",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": "-",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "11/04/2023",
+        "competition": "Seniors v Mendip Springs (A) 10.30",
+        "section": "Seniors",
+        "blocks": " 12.32 - 13.12 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "12/04/2023",
+        "competition": "Club Midweek Medal",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": "-",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "13/04/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": " 07.44 - 10.56 ",
+        "teeTimes": "25",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "15/04/2023",
+        "competition": "Club PGA Pro Am Qualifier (Stableford)",
+        "section": "Club",
+        "blocks": "  08.00 - 10.16   ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "16/04/2023",
+        "competition": "Ladies Coronation Foursomes",
+        "section": "Ladies",
+        "blocks": " 09.36 - 09.52 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "17/04/2023",
+        "competition": "Ladies Coronation Foursomes",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "18/04/2023",
+        "competition": "Junior's Open",
+        "section": "Juniors",
+        "blocks": " 08.00 - 12.00 ",
+        "teeTimes": "-",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "19/04/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": "-",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "20/04/2023",
+        "competition": "Seniors Stableford",
+        "section": "Seniors",
+        "blocks": " 07.44 - 10.56 ",
+        "teeTimes": "25",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "22/04/2023",
+        "competition": "Club Hodgson Trophy",
+        "section": "Club",
+        "blocks": " 07.28 - 10.00 ",
+        "teeTimes": "20",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "23/04/2023",
+        "competition": "Ladies Medal",
+        "section": "Ladies",
+        "blocks": " 09.44 - 10.00 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "24/04/2023",
+        "competition": "Ladies Medal",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Tuesday ",
+        "date": "25/04/2023",
+        "competition": "Seniors Tour",
+        "section": "Seniors",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "26/04/2023",
+        "competition": "Club Midweek Medal",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "27/04/2023",
+        "competition": "Seniors Team Cup",
+        "section": "Seniors",
+        "blocks": " 07.20 - 11.12 ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "29/04/2023",
+        "competition": "Men's Medal",
+        "section": "Men",
+        "blocks": " 07.28 - 09.44 ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "29/04/2023",
+        "competition": "Junior Stableford",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "01/05/2023",
+        "competition": "Early May Bank Holiday Social Competition",
+        "section": "Club",
+        "blocks": " 08.32 - 10.00 ",
+        "teeTimes": "10",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "03/05/2023",
+        "competition": "Seniors v Tall Pines (A)12.00",
+        "section": "Seniors",
+        "blocks": " 12.00 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "03/05/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "04/05/2023",
+        "competition": "Seniors Medal ",
+        "section": "Seniors",
+        "blocks": " 07.20 - 11.12 ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "06/05/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 07.28 - 09.44 ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "07/05/2023",
+        "competition": "Ladies Stableford PCQ and Millenium Vets",
+        "section": "Ladies",
+        "blocks": " 09.44 - 10.0 ",
+        "teeTimes": " 3 ",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "07/05/2023",
+        "competition": "Men's Golf Day at Forest Hills",
+        "section": "Men",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "08/05/2023",
+        "competition": "Ladies Stableford PCQ and Millenium Vets",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "09/05/2023",
+        "competition": "Seniors v Stockwood Vale (H) 12.00",
+        "section": "Seniors",
+        "blocks": " 12.32 - 13.12 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "10/05/2023",
+        "competition": "Club Midweek Medal",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "11/05/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": " 07.20 - 11.12 ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Friday",
+        "date": "12/05/2023",
+        "competition": "Staff v Main Committee",
+        "section": "NA",
+        "blocks": " 16.00 - 16.32 ",
+        "teeTimes": "4",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "13/05/2023",
+        "competition": "Men's County Medal",
+        "section": "Men",
+        "blocks": " 07.28 - 09.44 ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "14/05/2023",
+        "competition": "Ladies Aussie Spoons Foursome",
+        "section": "Ladies",
+        "blocks": " 09.44 - 10.00 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "14/05/2023",
+        "competition": "Junior Medal",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "15/05/2023",
+        "competition": "Ladies Aussie Spoons Foursome",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "15/05/2023",
+        "competition": "Seniors v Bristol and Clifton (A) 12.30",
+        "section": "Seniors",
+        "blocks": " 12.30 ",
+        "teeTimes": " 12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "17/05/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "17/05/2023",
+        "competition": "Men's Away Day",
+        "section": "Men",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "18/05/2023",
+        "competition": "Seniors Stableford(County Qualifier)",
+        "section": "Seniors",
+        "blocks": " 07.20 - 11.12 ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "21/05/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": "  07.20 - 09.36  ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "21/05/2023",
+        "competition": "Ladies Medal",
+        "section": "Ladies",
+        "blocks": " 09.44 - 10.00 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "22/05/2023",
+        "competition": "Ladies Medal",
+        "section": "Ladies",
+        "blocks": " 08.40 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "22/05/2023",
+        "competition": "Seniors v Cumberwell Park (A) 11.30",
+        "section": "Seniors",
+        "blocks": " 11.30 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "24/05/2023",
+        "competition": "Club Midweek Medal",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "25/05/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "27/05/2023",
+        "competition": "Men's Medal",
+        "section": "Men",
+        "blocks": " 07.20 - 09.52 ",
+        "teeTimes": "20",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "27/05/2023",
+        "competition": "Junior Stableford",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "29/05/2023",
+        "competition": "Spring Bank Holiday - Club Social Comp",
+        "section": "Club",
+        "blocks": "10.00 - 12.00",
+        "teeTimes": "16",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "31/05/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "01/06/2023",
+        "competition": "Seniors Summerhouse Millenium Medal",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "03/06/2023",
+        "competition": "Men's Texas Scramble",
+        "section": "Men",
+        "blocks": " 08.00 - 09.52 ",
+        "teeTimes": "15",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "04/06/2023",
+        "competition": "Ladies Stableford ",
+        "section": "Ladies",
+        "blocks": " 09.44 - 10.00 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "05/06/2023",
+        "competition": "Ladies Stableford ",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "06/06/2023",
+        "competition": "Seniors v Stockwood Vale (A) 11.00",
+        "section": "Seniors",
+        "blocks": " 11.00 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "07/06/2023",
+        "competition": "Club Midweek Medal",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "08/06/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "10/06/2023",
+        "competition": "Club Championship Round 1",
+        "section": "Club",
+        "blocks": " 07.20 - 12.32 ",
+        "teeTimes": "40",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "11/06/2023",
+        "competition": "Club Championship Round 2",
+        "section": "Club",
+        "blocks": " 07.20 - 12.32 ",
+        "teeTimes": "40",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "12/06/2023",
+        "competition": "Ladies Competition ",
+        "section": "Ladies",
+        "blocks": "08.48 - 10.32",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "14/06/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "15/06/2023",
+        "competition": "Seniors Pairs Open",
+        "section": "Seniors",
+        "blocks": " 07.28 -14.00 ",
+        "teeTimes": "50",
+        "comments": "-"
+    }, {
+        "day": "Friday",
+        "date": "16/06/2023",
+        "competition": "Seniors Away Day  - Forest Hills",
+        "section": "Seniors",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "17/06/2023",
+        "competition": "Ladies Ping 4BBB",
+        "section": "Ladies",
+        "blocks": " 10.00 - 11.04 ",
+        "teeTimes": "9",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "17/06/2023",
+        "competition": "Junior Medal",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "17/06/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 07.20 - 09.52 ",
+        "teeTimes": "20",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "18/06/2023",
+        "competition": "Ladies Medal",
+        "section": "Ladies ",
+        "blocks": " 09.36 - 10.00 ",
+        "teeTimes": "4",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "19/06/2023",
+        "competition": "Ladies Medal",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "19/06/2023",
+        "competition": "Seniors v Brickhampton (A) 10.00",
+        "section": "Seniors",
+        "blocks": " 10.00 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "21/06/2023",
+        "competition": "Club Midweek Medal",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "22/06/2023",
+        "competition": "Seniors Stableford",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "25/06/2023",
+        "competition": "Men's Hawkins Rosebowl (Stableford)",
+        "section": "Men",
+        "blocks": " 07.44 - 10.16 ",
+        "teeTimes": "20",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "26/06/2023",
+        "competition": "Ladies Away Day",
+        "section": "Ladies ",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "26/06/2023",
+        "competition": "Ladies",
+        "section": "Ladies ",
+        "blocks": " 09.04 - 09.28 ",
+        "teeTimes": "4",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "27/06/2023",
+        "competition": "Seniors v Forest of Dean (H) 12.30",
+        "section": "Seniors",
+        "blocks": " 12.32 - 13.12 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "28/06/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "29/06/2023",
+        "competition": "Seniors Captain's Day",
+        "section": "Seniors",
+        "blocks": " 07.44 - 09.48 ",
+        "teeTimes": "2 x 15 tees",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "01/07/2023",
+        "competition": "Club Invitation Day",
+        "section": "Club",
+        "blocks": " 08.00 - 10.32 ",
+        "teeTimes": "20",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "02/07/2023",
+        "competition": "Junior Stableford",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "03/07/2023",
+        "competition": "Ladies Open Team Event",
+        "section": "Ladies",
+        "blocks": " 08.56 - 14.00 ",
+        "teeTimes": "39",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "04/07/2023",
+        "competition": "Seniors v Tall Pines (H) 12.30",
+        "section": "Seniors",
+        "blocks": " 12.32 - 13.12 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "05/07/2023",
+        "competition": "Club Midweek Medal",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "06/07/2023",
+        "competition": "Seniors Medal ",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "08/07/2023",
+        "competition": "Men's Burhill Bowl (Medal)",
+        "section": "Men",
+        "blocks": " 07.20 - 10.08 ",
+        "teeTimes": "22",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "09/07/2023",
+        "competition": "Ladies Stableford and Grannie Star",
+        "section": "Ladies",
+        "blocks": " 10.16 - 10.32 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "10/07/2023",
+        "competition": "Ladies Stableford and Grannie Star",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "11/07/2023",
+        "competition": "Seniors v The Bristol(A) 11.00",
+        "section": "Seniors",
+        "blocks": " 11.00 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "12/07/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "13/07/2023",
+        "competition": "Seniors Stableford",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Friday",
+        "date": "14/07/2023",
+        "competition": "Club Mixed Away Day",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "15/07/2023",
+        "competition": "Club Par 3 Championship",
+        "section": "Men",
+        "blocks": " 07.28 - 09.30 ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "15/07/2023",
+        "competition": "Junior Medal",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "16/07/2023",
+        "competition": "Ladies Ellis Cup Foursomes",
+        "section": "Ladies",
+        "blocks": " 09.44 - 10.00 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "17/07/2023",
+        "competition": "Ladies Ellis Cup Foursomes",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "17/07/2023",
+        "competition": "Seniors v Filton (H) 12.30",
+        "section": "Seniors",
+        "blocks": " 12.32 - 13.12 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "19/07/2023",
+        "competition": "Club Midweek Medal",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "20/07/2023",
+        "competition": "Seniors Championship",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Friday",
+        "date": "21/07/2023",
+        "competition": "Seniors Championship",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "22/07/2023",
+        "competition": "Men's Medal",
+        "section": "Men",
+        "blocks": " 07.20 - 09.36 ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "22/07/2023",
+        "competition": "Ladies Burhill Bowl and Muriel Button Vets",
+        "section": "Ladies",
+        "blocks": "  09.44 - 10.00  ",
+        "teeTimes": "3",
+        "comments": "Move to Sunday 23/07/23"
+    }, {
+        "day": "Monday",
+        "date": "24/07/2023",
+        "competition": "Ladies Burhill Bowl and Muriel Button Vets",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "26/07/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "26/07/2023",
+        "competition": "Junior Away Day ",
+        "section": "Juniors",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "27/07/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "29/07/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 07.20 - 09.36 ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "31/07/2023",
+        "competition": "Ladies Competition",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "31/07/2023",
+        "competition": "Seniors v Cumberwell Park (H)  12.30",
+        "section": "Seniors",
+        "blocks": " 12.32 - 13.12 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "02/08/2023",
+        "competition": "Club Midweek Medal",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "03/08/2023",
+        "competition": "Seniors Medal",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "06/08/2023",
+        "competition": "Men's Medal",
+        "section": "Men",
+        "blocks": " 07.20 - 09.36 ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "06/08/2023",
+        "competition": "Ladies Stableford and Mercia Cup",
+        "section": "Ladies",
+        "blocks": " 09.44 - 10.08 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "06/08/2023",
+        "competition": "Junior Medal",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "07/08/2023",
+        "competition": "Ladies Stableford and Mercia Cup",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "15/08/2023",
+        "competition": "Everton Mixed (two tee start)",
+        "section": "Club",
+        "blocks": " 14.32 - 15.36  ",
+        "teeTimes": "2 x 9",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "09/08/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "10/08/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "2 Tee Start"
+    }, {
+        "day": "Saturday",
+        "date": "12/08/2023",
+        "competition": "Men's Captain's Day",
+        "section": "Men",
+        "blocks": " 07.28 - 10.24 ",
+        "teeTimes": "24",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "13/08/2023",
+        "competition": "Ladies County Greensomes",
+        "section": "Ladies",
+        "blocks": " 09.52 - 10.08 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "14/08/2023",
+        "competition": "Ladies County Greensomes",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "15/08/2023",
+        "competition": "Junior Captain's Breakfast",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.44 ",
+        "teeTimes": "5",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "16/08/2023",
+        "competition": "Club Midweek Medal",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "17/08/2023",
+        "competition": "Seniors' Captain's Cup",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "19/08/2023",
+        "competition": "Men's Bowmaker",
+        "section": "Men",
+        "blocks": " 07.20 - 09.28 ",
+        "teeTimes": "17",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "19/08/2023",
+        "competition": "Junior Stableford",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "20/08/2023",
+        "competition": "Ladies' Captain's Day",
+        "section": "Ladies",
+        "blocks": "  09.44 - 10.00  ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "21/08/2023",
+        "competition": "Ladies' Captain's Day",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "22/08/2023",
+        "competition": "Seniors v Forest of Dean (A) 11.00",
+        "section": "Seniors",
+        "blocks": " 11.00 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "23/08/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "24/08/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "26/08/2023",
+        "competition": "Men's Past Captains' Day",
+        "section": "Men",
+        "blocks": " 08.00 - 08.32 ",
+        "teeTimes": "4",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "27/08/2023",
+        "competition": "Men's Handicap Foursomes",
+        "section": "Men",
+        "blocks": " 08.00 - 09.28 ",
+        "teeTimes": "12",
+        "comments": "-"
+    }, {
+        "day": "Sunday ",
+        "date": "27/08/2023",
+        "competition": "Junior Championship Round 1",
+        "section": "Juniors",
+        "blocks": " 09.36 - 10.08 ",
+        "teeTimes": "5",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "28/08/2023",
+        "competition": "Summer Bank Holiday Social Competition",
+        "section": "Club",
+        "blocks": " 08.32 - 09.28 ",
+        "teeTimes": "12",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "29/08/2023",
+        "competition": "Junior Championship Round 2",
+        "section": "Juniors",
+        "blocks": " 13.28 - 1400 ",
+        "teeTimes": "5",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "29/08/2023",
+        "competition": "Seniors v Bristol and Clifton (H) 12.30",
+        "section": "Seniors ",
+        "blocks": "  12.32 - 13.12  ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "30/08/2023",
+        "competition": "Club Midweek Medal",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "31/08/2023",
+        "competition": "Seniors Stableford",
+        "section": "Seniors",
+        "blocks": "   07.20 - 11.12   ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "02/09/2023",
+        "competition": "Men's Victor Harroway Trophy (Medal)",
+        "section": "Men",
+        "blocks": " 07.20 - 09.52 ",
+        "teeTimes": "20",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "03/09/2023",
+        "competition": "Ladies Charity Stableford",
+        "section": "Ladies",
+        "blocks": "  09.44 - 10.00  ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "04/09/2023",
+        "competition": "Ladies Charity Stableford",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "04/09/2023",
+        "competition": "Seniors v Shirehampton (A) 12.00",
+        "section": "Seniors",
+        "blocks": "",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "06/09/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "07/09/2023",
+        "competition": "Seniors Medal",
+        "section": "Seniors",
+        "blocks": "   07.20 - 11.12   ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Friday",
+        "date": "08/09/2023",
+        "competition": "Men's Captain's Away Weekend (three days)",
+        "section": "Men",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "10/09/2023",
+        "competition": "Junior Stableford",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "11/09/2023",
+        "competition": "Ladies Competition",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "12/09/2023",
+        "competition": "Seniors v Bristol and Clifton (H) 12.30",
+        "section": "Seniors",
+        "blocks": "  12.32 - 13.12  ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "13/09/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "14/09/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "16/09/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 07.36 - 10.08 ",
+        "teeTimes": "20",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "17/09/2023",
+        "competition": "Ladies Away Weekend (two days)",
+        "section": "Ladies",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "18/09/2023",
+        "competition": "Ladies Competition ",
+        "section": "Ladies",
+        "blocks": " 08.48 - 9.04 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "20/09/2023",
+        "competition": "Club Midweek Stableford",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "21/09/2023",
+        "competition": "Seniors Stableford",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "23/09/2023",
+        "competition": "Men's Bogey",
+        "section": "Men",
+        "blocks": " 07.44 - 10.16 ",
+        "teeTimes": "20",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "23/09/2023",
+        "competition": "Junior Medal",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "24/09/2023",
+        "competition": "Club Past Captains' Cup",
+        "section": "Club",
+        "blocks": " 13.04 - 14.00 ",
+        "teeTimes": "8",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "24/09/2023",
+        "competition": "Ladies Medal",
+        "section": "Ladies",
+        "blocks": " 09.44 - 10.00  ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "25/09/2023",
+        "competition": "Ladies Medal",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "26/09/2023",
+        "competition": "Seniors v Shirehampton (H) 12.30",
+        "section": "Seniors ",
+        "blocks": " 12.32 - 13.12 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Wednesday",
+        "date": "27/09/2023",
+        "competition": "Club Midweek Medal",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "28/09/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": "  07.20 - 11.12  ",
+        "teeTimes": "30",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "30/09/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 08.00 - 10.16 ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "01/10/2023",
+        "competition": "Ladies Stableford",
+        "section": "Ladies",
+        "blocks": "  09.44 - 10.00  ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "02/10/2023",
+        "competition": "Ladies Stableford",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "05/10/2023",
+        "competition": "Seniors v Filton (A) 12.00",
+        "section": "Seniors",
+        "blocks": " 12.00 ",
+        "teeTimes": "12 players",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "05/10/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": " 07.44 - 10.56 ",
+        "teeTimes": "25",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "07/10/2023",
+        "competition": "Men's Gold Medal",
+        "section": "Men",
+        "blocks": " 08.00 - 09.44 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "07/10/2023",
+        "competition": "Men's Tin Medal",
+        "section": "Men",
+        "blocks": " 09.52 - 11.04 ",
+        "teeTimes": "10",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "08/10/2023",
+        "competition": "Junior Stableford",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "08/10/2023",
+        "competition": "Ladies Medal",
+        "section": "Ladies",
+        "blocks": " 09.44 - 10.00 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "09/10/2023",
+        "competition": "Ladies Medal",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "12/10/2023",
+        "competition": "Seniors Medal",
+        "section": "Seniors",
+        "blocks": " 07.44 - 10.56 ",
+        "teeTimes": "25",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "14/10/2023",
+        "competition": "Men's Handicap Greensomes",
+        "section": "Men",
+        "blocks": " 08.00 - 10.00 ",
+        "teeTimes": "16",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "15/10/2023",
+        "competition": "Ladies Competition Winners Cup",
+        "section": "Ladies",
+        "blocks": " 09.28 - 10.24  ",
+        "teeTimes": "8",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "16/10/2023",
+        "competition": "Ladies Competition ",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "19/10/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": " 07.44 - 10.56 ",
+        "teeTimes": "25",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "21/10/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 08.00 - 10.16 ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "21/10/2023",
+        "competition": "Junior Competition",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "22/10/2023",
+        "competition": "Ladies v Men",
+        "section": "Ladies/Men",
+        "blocks": " 08.00 - 09.12 ",
+        "teeTimes": "10",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "23/10/2023",
+        "competition": "Ladies' Captain v Vice Captain",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "26/10/2023",
+        "competition": "Seniors Stableford",
+        "section": "Seniors",
+        "blocks": " 07.44 - 10.56 ",
+        "teeTimes": "25",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "29/10/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 08.00 - 10.16 ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "30/10/2023",
+        "competition": "Ladies Competition ",
+        "section": "Ladies",
+        "blocks": " 08.48 - 10.32 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "02/11/2023",
+        "competition": "Seniors' AGM/Captain v Past Captain (2 tee start)",
+        "section": "Seniors",
+        "blocks": " 09.28 - 10.32 ",
+        "teeTimes": "2 x 9",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "02/11/2023",
+        "competition": "Ladies' End of Season Dinner",
+        "section": "Ladies",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "04/11/2023",
+        "competition": "Men's AGM/ Captain v Vice Captain",
+        "section": "Men",
+        "blocks": " 08.56 - 10.40 ",
+        "teeTimes": "14",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "04/11/2023",
+        "competition": "Ladies Christmas Club",
+        "section": "Ladies",
+        "blocks": " 10.48 - 11.20 ",
+        "teeTimes": "5",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "05/11/2023",
+        "competition": "Ladies Stableford",
+        "section": "Ladies",
+        "blocks": " 09.36 - 09.52 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "05/11/2023",
+        "competition": "Junior Competition",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "06/11/2023",
+        "competition": "Ladies Stableford",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "07/11/2023",
+        "competition": "Ladies' AGM ",
+        "section": "Ladies",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "ROOM BOOKED 6.30 TO 8.00PM"
+    }, {
+        "day": "Thursday",
+        "date": "09/11/2023",
+        "competition": "Seniors Medal",
+        "section": "Seniors",
+        "blocks": " 08.00 - 11.04 ",
+        "teeTimes": "24",
+        "comments": "-"
+    }, {
+        "day": "Saturday ",
+        "date": "11/12/2023",
+        "competition": "Ladies Christmas Club",
+        "section": "Ladies",
+        "blocks": " 10.00 - 10.32 ",
+        "teeTimes": "5",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "13/11/2023",
+        "competition": "Ladies v Seniors Challenge Cup",
+        "section": "Ladies/Sen",
+        "blocks": " 09.04 - 11.36 ",
+        "teeTimes": "20",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "16/11/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": " 08.00 - 11.04 ",
+        "teeTimes": "24",
+        "comments": "-"
+    }, {
+        "day": "Friday",
+        "date": "17/11/2023",
+        "competition": "Club Presentation Night",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "Room booked from 6.00pm"
+    }, {
+        "day": "Saturday",
+        "date": "18/11/2023",
+        "competition": "Junior Competition",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "18/11/2023",
+        "competition": "Ladies Christmas Club",
+        "section": "Ladies",
+        "blocks": " 10.00 - 10.32 ",
+        "teeTimes": "5",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "19/11/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 08.32 - 11.04 ",
+        "teeTimes": "20",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "20/11/2023",
+        "competition": "Ladies Competition",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "23/11/2023",
+        "competition": "Seniors Stableford",
+        "section": "Seniors",
+        "blocks": " 08.00 - 11.04 ",
+        "teeTimes": "24",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "25/11/2023",
+        "competition": "Ladies Christmas Club",
+        "section": "Ladies",
+        "blocks": " 10.00 - 10.32 ",
+        "teeTimes": "5",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "27/11/2023",
+        "competition": "Ladies Sue Harbottle Charity Stableford",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "30/11/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": " 08.00 - 11.04 ",
+        "teeTimes": "24",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "02/12/2023",
+        "competition": "Men's 3 Club Challenge",
+        "section": "Men",
+        "blocks": " 08.00 - 10.48 ",
+        "teeTimes": "22",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "02/12/2023",
+        "competition": "Captains' Drive-in 3.00pm",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "02/12/2023",
+        "competition": "Ladies Christmas Club",
+        "section": "Ladies",
+        "blocks": " 10.56 - 11.28 ",
+        "teeTimes": "5",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "04/12/2023",
+        "competition": "Ladies 3 Club Challenge and Christmas Lunch",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "05/12/2023",
+        "competition": "Club AGM",
+        "section": "Club",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "07/12/2023",
+        "competition": "Seniors Medal",
+        "section": "Seniors",
+        "blocks": " 08.16 - 10.48 ",
+        "teeTimes": "20",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "09/12/2023",
+        "competition": "Ladies Christmas Club",
+        "section": "Ladies",
+        "blocks": " 10.00 - 10.32 ",
+        "teeTimes": "5",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "10/12/2023",
+        "competition": "Junior Texas Scramble and Christmas Lunch",
+        "section": "Juniors",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "5 tee times booked"
+    }, {
+        "day": "Sunday",
+        "date": "10/12/2023",
+        "competition": "Ladies 9 Hole Stableford",
+        "section": "Ladies",
+        "blocks": " 09.36 - 09.52 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "11/12/2023",
+        "competition": "Ladies 9 Hole Stableford",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "14/12/2023",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": " 08.16 - 10.48 ",
+        "teeTimes": "20",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "16/12/2023",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 08.32 - 11.04 ",
+        "teeTimes": "20",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "16/12/2023",
+        "competition": "Ladies Christmas Club",
+        "section": "Ladies",
+        "blocks": " 11.12 - 11.52 ",
+        "teeTimes": "5",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "18/12/2023",
+        "competition": "Ladies Competition",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "21/12/2023",
+        "competition": "Seniors Stableford",
+        "section": "Seniors",
+        "blocks": " 08.16 - 10.48 ",
+        "teeTimes": "20",
+        "comments": "-"
+    }, {
+        "day": "Saturday ",
+        "date": "23/12/2023",
+        "competition": "Ladies Christmas Club",
+        "section": "Ladies",
+        "blocks": " 10.00 - 10.32 ",
+        "teeTimes": "5",
+        "comments": "-"
+    }, {
+        "day": "Tuesday",
+        "date": "26/12/2023",
+        "competition": "Boxing Day Bank Holiday",
+        "section": "",
+        "blocks": " - ",
+        "teeTimes": " - ",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "01/01/2024",
+        "competition": "Club New Year's Day Texas Scramble",
+        "section": "Club",
+        "blocks": " 10.00 - 12.00 ",
+        "teeTimes": "16",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "04/01/2024",
+        "competition": "Seniors Medal/ Captain's Drive-in",
+        "section": "Seniors",
+        "blocks": " 08.08 - 10.56 ",
+        "teeTimes": "22",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "06/01/2024",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 08.32 - 10.48 ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "06/01/2024",
+        "competition": "Ladies Christmas Club",
+        "section": "Ladies",
+        "blocks": " 10.56 - 11.28 ",
+        "teeTimes": "5",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "07/01/2024",
+        "competition": "Junior Stableford",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "07/01/2024",
+        "competition": "Ladies 9 hole Stableford",
+        "section": "Ladies",
+        "blocks": " 09.36 - 09.52 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "08/01/2024",
+        "competition": "Ladies 9 hole Stableford",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "11/01/2024",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": " 08.08 - 10.56 ",
+        "teeTimes": "22",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "15/01/2024",
+        "competition": "Ladies  Competition",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32  ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "18/01/2024",
+        "competition": "Seniors Stableford",
+        "section": "Seniors",
+        "blocks": " 08.08 - 10.56 ",
+        "teeTimes": "22",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "22/01/2024",
+        "competition": "Ladies  Competition",
+        "section": "Ladies",
+        "blocks": " 08.56 - 10.32 ",
+        "teeTimes": "13",
+        "comments": "-"
+    }, {
+        "day": "Thursday",
+        "date": "25/01/2024",
+        "competition": "Seniors Thursday Golf",
+        "section": "Seniors",
+        "blocks": " 08.08 - 10.56 ",
+        "teeTimes": "22",
+        "comments": "-"
+    }, {
+        "day": "Saturday",
+        "date": "27/01/2024",
+        "competition": "Men's Stableford",
+        "section": "Men",
+        "blocks": " 08.32 - 10.48 ",
+        "teeTimes": "18",
+        "comments": "-"
+    }, {
+        "day": "Sunday",
+        "date": "28/01/2024",
+        "competition": "Junior Stableford",
+        "section": "Juniors",
+        "blocks": " 12.00 - 12.16 ",
+        "teeTimes": "3",
+        "comments": "-"
+    }, {
+        "day": "Monday",
+        "date": "29/01/2024",
         "competition": "Ladies  Competition",
         "section": "Ladies",
         "blocks": " 08.56 - 10.32 ",
